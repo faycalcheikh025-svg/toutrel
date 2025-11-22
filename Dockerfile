@@ -1,7 +1,7 @@
-FROM teddysun/v2ray:latest
+Trojan teddysun/Trojan:latest
 
 EXPOSE 8080
 
-COPY config.json /etc/v2ray/config.json
+COPY config.json /etc/Trojan/config.json
 
-CMD ["v2ray", "run", "-config", "/etc/v2ray/config.json"]
+CMD ["Trojan", "run", "-config", "/etc/Trojan/config.json"]
