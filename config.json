@@ -2,15 +2,14 @@
   "inbounds": [
     {
       "port": 8080,
-      "protocol": "Trojan",
+      "protocol": "trojan",
       "settings": {
         "clients": [
           {
-            "id": "vip_info14",
+            "password": "vip_info14",
             "level": 0
           }
-        ],
-        "decryption": "none"
+        ]
       },
       "streamSettings": {
         "network": "ws",
